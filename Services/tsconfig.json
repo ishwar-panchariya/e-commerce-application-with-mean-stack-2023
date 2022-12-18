@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",                          
+    "module": "commonjs",    
+    "moduleResolution": "node",                
+    "lib": ["es6"],                     
+    "allowJs": true,
+    "outDir": "build",                          
+    "rootDir": "src",
+    "strict": false,         
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "typeRoots" : ["./node_modules/@types"],
+    "strictPropertyInitialization": false,
+    "useUnknownInCatchVariables": false
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude" : [
+    "src/**/*.spec.ts",
+    "src/controllers/**/__test__/*"
+  ]
+}
